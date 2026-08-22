@@ -1,7 +1,8 @@
+body {
+    background-color: black;
+}
+
 #small-note {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
+    color: red;
+    font-size: 40px;
 }
