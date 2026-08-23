@@ -31,7 +31,7 @@ function _generatePassword(){ //returns generated password with a length of 16
 function _getRandomElem(){// return random element from array
     return characters[Math.floor(Math.random()*characters.length)]
 }
-function generateOptions(amount=3){
+function generateOptions(amount=4){
     console.log("generateOptions работает")
     let options = []
     for (let i=0; i<amount; i+=1){
