@@ -2,23 +2,11 @@ body{
     background-color: #1F2937;
 }
 #supporting-text{
-    /* Supporting text */
+    display: flex;
+    margin-left: 52px;
 
-    position: bottom;
-    width: 372px;
-    height: 28px;
-    left: 52px;
-    top: 205px;
-
-    /* text-xl/leading-7/font-normal */
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
-
-    /* Medium grey */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     color: #D5D4D8;
 
 
@@ -35,7 +23,8 @@ body{
 
     margin: 100px 0 10px 52px;
 }
-#btn-generate-password {
+#btn-generate-passwords{
+    display: block;
     margin-left: 52px;
     margin-top: 30px;
 
@@ -46,8 +35,7 @@ body{
     color: white;
 
     border: none;
-    border-radius: 6px;
-
+    border-radius: 10x;
     font-size: 16px;
 }
 #heading span {
