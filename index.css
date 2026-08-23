@@ -41,15 +41,21 @@ body{
 #heading span {
     color: #4ADF86;
 }
-#password-options{
-    /* Rectangle 95 */
+#password-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
-    position: absolute;
+    margin-left: 52px;
+    margin-top: 40px;
+}
+.passwords {
     width: 211px;
     height: 39px;
-    left: 52px;
-    top: 396px;
 
+    margin: 0;
     background: #273549;
     border-radius: 6px;
+
+    color: #55F991;
 }
